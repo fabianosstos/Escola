@@ -1,0 +1,5 @@
+application\Main.class
+models\Aluno.class
+controllers\LoginController.class
+utils\AlertUtils.class
+controllers\AlunoController.class

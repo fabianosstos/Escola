@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.AlunoController" spacing="10" alignment="CENTER" padding="20">
+    <Label text="Cadastro de Aluno" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+    <TextField fx:id="txtNome" promptText="Nome do aluno" />
+    <TextField fx:id="txtDataNascimento" promptText="Data de Nascimento" />
+    <TextField fx:id="txtSerie" promptText="Série" />
+    <TextField fx:id="txtTurma" promptText="Turma" />
+    <Button fx:id="btnSalvar" text="Salvar" onAction="#salvarAluno" />
+</VBox>
